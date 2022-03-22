@@ -92,19 +92,20 @@ const _nsfw = JSON.parse(fs.readFileSync('./database/nsfw.json'))
 
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "04:00:00"){
-        var ucapanWaktu = 'Malam Tod 🌌'
+        var ucapanWaktu = 'Malam Njing 🌌'
 }
         if(time2 < "17:30:00"){
         var ucapanWaktu = 'Magrib 🌆'
 }
         if(time2 < "16:00:00"){
-        var ucapanWaktu = 'Sore Tod 🌇'
+        var ucapanWaktu = 'Sore Njing 🌇'
 }
         if(time2 < "14:00:00"){
-        var ucapanWaktu = 'Siang Tod 🏞'
+        var ucapanWaktu = 'Siang Njing 🏞'
 }
         if(time2 < "06:00:00"){
-        var ucapanWaktu = 'Pagi Tod 🌅'
+		
+        var ucapanWaktu = 'Pagi Njing 🌅'
 }
         if(time2 < "05:00:00"){
         var ucapanWaktu = 'Subuh 🏙'
